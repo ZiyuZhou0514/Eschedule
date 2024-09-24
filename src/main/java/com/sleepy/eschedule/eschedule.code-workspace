@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "eschedule",
+			"path": "../../../../../.."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
