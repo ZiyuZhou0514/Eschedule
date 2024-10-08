@@ -66,3 +66,6 @@ CREATE TABLE time_event_dows (
                                  PRIMARY KEY (time_event_id, day_of_week),
                                  KEY (day_of_week)
 );
+
+alter table user add column password varchar(64) not null ;
+alter table user add column salt varchar(64) not null ;

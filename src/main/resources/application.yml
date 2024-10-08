@@ -1,0 +1,18 @@
+server:
+  #网络端口配置
+  port: 8888
+
+spring:
+  jackson:
+    #设定不对未知字段和空值字段进行序列化节省流量
+    deserialization:
+      fail-on-invalid-subtype: false
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:mysql://106.15.188.110:3306/eschedule?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: zzy030514
+    password: zzy030514
+
+
+mybatis-plus:
+  mapper-locations: file:Resources/mybatisMapper/*.xml
